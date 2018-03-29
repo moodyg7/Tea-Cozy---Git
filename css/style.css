@@ -1,0 +1,187 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.logo {
+position: relative;
+text-align: left;
+font-size: 50px;
+border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  margin-left: 10px;
+}
+
+.nav {
+  position: relative;
+  float: right;
+  top: -100px;
+  text-decoration: underline;
+  clear: both;
+}
+
+.nav a {
+  display: inline;
+  margin-right: 11px;
+}
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  padding-left: 160px;
+  max-width: 1200px;
+}
+
+.mission h2 {
+display: inline-block;
+margin-top: 300px;
+vertical-align: middle;
+margin-left: 180px;
+z-index: 2;
+}
+
+.month {
+  text-align: center;
+  position: static;
+  max-width: 1000px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.berry img {
+  max-height: 200px;
+  max-width: 300px;
+  position: absolute;
+  left: 250px;
+  bottom: -225px;
+  display: block;
+  margin-bottom: -200px;
+}
+.berry h2 {
+  margin-left: -700px;
+  margin-top: 300px;
+  z-index: 2;
+}
+
+.rum img {
+  max-height: 200px;
+  max-width: 300px;
+  position: absolute;
+  top: 1000px;
+  left: 600px;
+}
+
+.rum h2 {
+  margin-right: 25px;
+  margin-top: -60px;
+  position: relative;
+  background-position: bottom;
+}
+
+.donuts img {
+  position: absolute;
+  max-height: 200px;
+  max-width: 300px;
+  right: 250px;
+  bottom: -420px;
+}
+
+.donuts h2 {
+  margin-right: -700px;
+  margin-top: -50px;
+}
+
+.ave img {
+    max-height: 200px;
+    max-width: 300px;
+    position: relative;
+    right: 150px;
+    }
+
+.ave h2 {
+position: relative;
+top: 245px;
+right: 175px;
+}
+
+.tea img {
+  max-height: 200px;
+  max-width: 300px;
+  position: relative;
+  bottom: 270px;
+  left: 200px;
+}
+
+.tea h2 {
+  position: relative;
+  left: 200px;
+  bottom: 5px;
+}
+
+.location {
+  position: absolute;
+  max-height: 500px;
+  max-width: 1500px;
+  left: 50px;
+}
+
+.location img {
+  position: absolute;
+  margin-left: 100px;
+  top: -150px;
+}
+
+.loc h2 {
+  font-size: 50px;
+  margin-top: -10px;
+}
+
+.downtown {
+  position: relative;
+  right: 500px;
+  top: 15px;
+  z-index: 2;
+  max-width: 300px;
+  max-height: initial;
+  left: 300px;
+  opacity: 1;
+}
+
+.bayside {
+  position: relative;
+  z-index: 2;
+  max-width: 300px;
+  bottom: 175px;
+  left: 650px;
+  opacity: 1;
+}
+
+.oakdale {
+  position: relative;
+  z-index: 2;
+  max-width: 300px;
+  left: 1000px;
+  bottom: 367px;
+  opacity: 1;
+}
+
+.last {
+  max-height: 200px;
+  margin: auto;
+}
+
+.copy {
+    float: left;
+    margin-left: 20px;
+}
